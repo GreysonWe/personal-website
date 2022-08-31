@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(13,20,35);
+    font-family: Helvetica;
+  }
+  
+.header-bg {
+    background-image: url("img/GW-Header-BG.jpg"); 
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  
