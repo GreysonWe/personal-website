@@ -5,6 +5,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("img/GW-body-Background.jpg");
   background-size: contain;
   background-position: center;
@@ -65,4 +68,6 @@ header {
 
 .content {
   height: 75vw;
+  background-color: rgb(38, 50, 115);
+  width: 75vw;
 }
