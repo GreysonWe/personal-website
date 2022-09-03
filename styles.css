@@ -66,8 +66,18 @@ header {
 }
 
 
-.content {
+.content-border {
   height: 75vw;
-  background-color: rgb(38, 50, 115);
+  background-color: rgb(49,35,15);
   width: 75vw;
+  border: 4px solid black;
+  padding: 1vw;
+}
+
+.content {
+  /*background-color: rgb(64,45,16);*/
+  background-color: rgb(30, 30, 30);
+  border: 4px solid black;
+  height: 100%;
+  width: 100%;
 }
