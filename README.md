@@ -1,2 +1,2 @@
 # personal-website
-A repository for my personal website
+my personal website
