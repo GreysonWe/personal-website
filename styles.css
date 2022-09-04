@@ -76,6 +76,7 @@ header {
   width: 80vw;
   border: 0.25vw solid black;
   padding: 1vw;
+  margin-bottom: 15vw;
 }
 
 .content {
