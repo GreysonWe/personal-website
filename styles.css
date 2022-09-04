@@ -12,7 +12,7 @@ body {
   background-size: contain;
   background-position: center;
   background-color: rgb(13,20,35);
-  font-family: Helvetica;
+  font-family: Garamond, serif;
 }
   
 header {
@@ -36,9 +36,7 @@ header {
   align-items: center;
   list-style: none;
   padding: 0px;
-  margin-top: 9vw;
-  column-gap: 1.5vw;
-
+  margin-top: 7vw;
 }
 
 /*
@@ -46,9 +44,16 @@ header {
 .projects-button,
 .blog-button,
 .music-and-art-button {
-
+  border: 4px solid red;
 }
 */
+
+.projects-button,
+.blog-button,
+.music-and-art-button {
+  margin-left: -2.5vw;
+}
+
 
 .about-me-button,
 .blog-button {
@@ -62,22 +67,126 @@ header {
 
 
 .navbar li a img {
-  width: 17.55vw;
+  width: 20vw;
 }
 
 
 .content-border {
-  height: 75vw;
   background-color: rgb(49,35,15);
-  width: 75vw;
-  border: 4px solid black;
+  width: 80vw;
+  border: 0.25vw solid black;
   padding: 1vw;
 }
 
 .content {
-  /*background-color: rgb(64,45,16);*/
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5vw;
   background-color: rgb(30, 30, 30);
-  border: 4px solid black;
+  border: 0.25vw solid black;
   height: 100%;
   width: 100%;
+  padding: 1.5vw;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(69, 69, 69,0.7);
+  border: 1vw solid rgba(194,199,255,0.5);
+  border-radius: 1vw;
+  padding: 1vw 1.5vw;
+}
+
+.intro h2 {
+  font-size: 2.7vw;
+  color: rgb(224, 224, 224);
+  background-color: rgba(30, 30, 30, 0.7);
+  padding: 1vw 1.5vw;
+  margin-bottom: 2vw;
+  margin: -1vw -1.5vw 0vw -1.5vw;
+}
+
+.intro-content {
+  display: flex;
+  column-gap: 2vw;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+.intro-content p {
+  color: rgb(224, 224, 224);
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+
+.intro-content img {
+  width: 20vw;
+  box-shadow: 0.5vw 0.5vw 0.7vw black;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(69, 69, 69,0.7);
+  border: 1vw solid rgba(194,199,255,0.5);
+  border-radius: 1vw;
+  padding: 1vw 1.5vw;
+}
+
+.interests h2 {
+  font-size: 2.7vw;
+  color: rgb(224, 224, 224);
+  background-color: rgba(30, 30, 30, 0.7);
+  padding: 1vw 1.5vw;
+  margin-bottom: 2vw;
+  margin: -1vw -1.5vw 0vw -1.5vw;
+}
+
+.interests-content {
+  display: flex;
+  column-gap: 2vw;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+.interests-content-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.interests-content-text p {
+  color: rgb(224, 224, 224);
+  margin: 1vw 0vw;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+
+.interests-content a {
+  color:rgb(224, 224, 224);
+}
+
+.interests-content-text ul {
+  color: rgb(224, 224, 224);
+  font-size: 1.5vw;
+  margin-left: 2vw;
+  line-height: 2.5vw;
+}
+
+.interests-content-imgs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vw;
+}
+
+.interests-content-imgs p {
+  color: rgb(224, 224, 224);
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+
+.interests-content-imgs img {
+  width: 20vw;
+  box-shadow: 0.5vw 0.5vw 0.7vw black;
 }
