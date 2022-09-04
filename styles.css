@@ -170,12 +170,18 @@ header {
 .interests-content-text ul {
   color: rgb(224, 224, 224);
   font-size: 1.5vw;
-  margin-left: 2vw;
+  margin-left: 1vw;
   line-height: 2.5vw;
 }
 
+.interests-content-text ul li {
+  font-size: 1.5vw;
+  margin-left: 2vw;
+}
+
 .interests-content-text ul li span {
-  margin-left: 0.2vw;
+  color: rgb(224, 224, 224);
+  font-size: 1.5vw;
 }
 
 .interests-content-imgs {
