@@ -222,6 +222,12 @@ header {
 
 /* Projects Page */
 
+
+.github-link img {
+  width: 15vw;
+  box-shadow: none;
+}
+
 /* Blog Page */
 
 /* Music and Art Page */
