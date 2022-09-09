@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+/* About Me Page */
+
 body {
   display: flex;
   flex-direction: column;
@@ -199,4 +201,99 @@ header {
 .interests-content-imgs img {
   width: 20vw;
   box-shadow: 0.5vw 0.5vw 0.7vw black;
+}
+
+/* End of About Me Page */
+
+/* Projects Page */
+
+/* Blog Page */
+
+/* Music and Art Page */
+
+.music {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(69, 69, 69,0.7);
+  border: 1vw solid rgba(194,199,255,0.5);
+  border-radius: 1vw;
+  padding: 1vw 1.5vw;
+}
+
+.music h2 {
+  font-size: 2.7vw;
+  color: rgb(224, 224, 224);
+  background-color: rgba(30, 30, 30, 0.7);
+  padding: 1vw 1.5vw;
+  margin-bottom: 2vw;
+  margin: -1vw -1.5vw 0vw -1.5vw;
+}
+
+.music-content {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2vw;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+.music-content p {
+  color: rgb(224, 224, 224);
+  margin: 1vw 0vw;
+  font-size: 2vw;
+  line-height: 2.5vw;
+}
+
+.art {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(69, 69, 69,0.7);
+  border: 1vw solid rgba(194,199,255,0.5);
+  border-radius: 1vw;
+  padding: 1vw 1.5vw;
+}
+
+.art h2 {
+  font-size: 2.7vw;
+  color: rgb(224, 224, 224);
+  background-color: rgba(30, 30, 30, 0.7);
+  padding: 1vw 1.5vw;
+  margin-bottom: 2vw;
+  margin: -1vw -1.5vw 0vw -1.5vw;
+}
+
+.art-content {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2vw;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+.photo-row p {
+  color: rgb(224, 224, 224);
+  margin: 0.5vw 0vw 2vw 0vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
+}
+
+.photo-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-photo {
+  width: 30vw;
+}
+
+.right-photo {
+  width: 30vw;
+}
+
+.left-photo img {
+  width: 100%;
+}
+
+.right-photo img {
+  width: 100%;
 }
