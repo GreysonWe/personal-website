@@ -102,9 +102,7 @@ header {
   padding: 1.5vw;
 }
 
-/* End of All Pages */
 
-/* About Me Page */
 
 .intro {
   display: flex;
@@ -137,6 +135,10 @@ header {
   font-size: 1.5vw;
   line-height: 2.5vw;
 }
+
+/* End of All Pages */
+
+/* About Me Page */
 
 .intro-content img {
   width: 20vw;
@@ -229,6 +231,43 @@ header {
 }
 
 /* Blog Page */
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(69, 69, 69,0.7);
+    border: 1vw solid rgba(194,199,255,0.5);
+    border-radius: 1vw;
+    padding: 1vw 1.5vw;
+}
+
+.blog-post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(224, 224, 224);
+  background-color: rgba(30, 30, 30, 0.7);
+  padding: 1vw 1.5vw;
+  margin-bottom: 2vw;
+  margin: -1vw -1.5vw 0vw -1.5vw;
+}
+
+.blog-post-header h2 {
+  font-size: 2vw;
+  
+}
+
+.blog-post-header p {
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+
+.blog-post-content p {
+  color: rgb(224, 224, 224);
+  margin: 1vw 0vw;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
 
 /* Music and Art Page */
 
