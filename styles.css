@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-/* About Me Page */
+/* All Pages */
 
 body {
   display: flex;
@@ -66,10 +66,21 @@ header {
   align-self: flex-end;
 }
 
+@keyframes rocking {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(-2deg);}
+  50% {transform: rotate(2deg);}
+  100% {transform: rotate(0deg);}
+}
+
+.navbar li a img:hover {
+  animation: rocking 1s;
+}
 
 .navbar li a img {
   width: 20vw;
 }
+
 
 
 .content-border {
@@ -90,6 +101,10 @@ header {
   width: 100%;
   padding: 1.5vw;
 }
+
+/* End of All Pages */
+
+/* About Me Page */
 
 .intro {
   display: flex;
