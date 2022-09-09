@@ -12,7 +12,7 @@ body {
   align-items: center;
   background-image: url("img/GW-body-Background.jpg");
   background-size: contain;
-  background-position: center;
+  background-position: top;
   background-color: rgb(13,20,35);
   font-family: Garamond, serif;
 }
