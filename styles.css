@@ -272,7 +272,7 @@ header {
 
 .photo-row p {
   color: rgb(224, 224, 224);
-  margin: 0.5vw 0vw 2vw 0vw;
+  margin: 0.8vw 0vw 2vw 0vw;
   font-size: 1.5vw;
   line-height: 2vw;
 }
@@ -292,8 +292,10 @@ header {
 
 .left-photo img {
   width: 100%;
+  box-shadow: 0.5vw 0.5vw 0.7vw black;
 }
 
 .right-photo img {
   width: 100%;
+  box-shadow: 0.5vw 0.5vw 0.7vw black;
 }
