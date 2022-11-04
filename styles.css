@@ -102,6 +102,17 @@ header {
   padding: 1.5vw;
 }
 
+.content a:link { text-decoration: none; }
+
+
+.content a:visited { text-decoration: none; }
+
+
+.content a:hover { text-decoration: none; }
+
+
+.content a:active { text-decoration: none; }
+
 
 
 .intro {
@@ -242,6 +253,14 @@ header {
     
 }
 
+.back-button div {
+  display: flex;
+  column-gap: 0.7vw;
+  color: rgb(224, 224, 224);
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
 .blog-post-header {
   display: flex;
   justify-content: space-between;
@@ -270,6 +289,26 @@ header {
   line-height: 2.5vw;
   white-space: pre-line;
 }
+
+/* blogposts pages */
+
+.back-button {
+  width: 15vw;
+}
+
+.back-button:link { text-decoration: none; }
+
+
+.back-button:visited { text-decoration: none; }
+
+
+.back-button:hover { text-decoration: none; }
+
+
+.back-button:active { text-decoration: none; }
+
+
+
 
 /* Music and Art Page */
 
